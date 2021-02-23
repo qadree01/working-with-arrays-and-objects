@@ -54,16 +54,15 @@ function greeting( obj ) {
 */
 
 //Code Here
-function totalPopulation() {
-  let obj = {  
-    utah: 1,
-    california: 2,
-    texas: 3,
-    arizona: 4
+const totalPopulation = obj => {
+  let sum = 0;
+  for (let key in obj) {
+    sum += obj[key]
   }
+  return sum
 }
 
-let {utah, california, texas, arizona} = obj
+totalPopulation(obj)
 
 
 ////////// PROBLEM 4 //////////
