@@ -22,7 +22,7 @@ var carDetails = {
 */
 
 //Code Here
-var {color, make, model, year} = carDetails;
+
 
 
 ////////// PROBLEM 2 //////////
@@ -54,6 +54,13 @@ function greeting( obj ) {
 */
 
 //Code Here
+let obj = {
+  utah: 1,
+  california: 2,
+  texas: 3,
+  arizona: 4
+}
+
 const totalPopulation = obj => {
   let sum = 0;
   for (let key in obj) {
@@ -76,7 +83,13 @@ totalPopulation(obj)
 */
 
 //Code Here
+let obj = {
+  carb: 'carb',
+  fat: 'fat',
+  protein: 'protein'
+}
 
+const obj2 = {}
 
 
 ////////// PROBLEM 5 //////////
